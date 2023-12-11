@@ -1,5 +1,5 @@
 # MVP-Sprint-1-BackEnd
-LISTA DE JOGOS 
+##LISTA DE JOGOS 
 
 Lista simples para catalogar jogos visando os mais diferetens tipos de objetivos.
 
@@ -10,7 +10,7 @@ Informações sobre como executar:
 
 Será necessário ter todas as libs python listadas no requirements.txt instaladas. Após clonar o repositório, é necessário ir ao diretório raiz, pelo terminal, para poder executar os comandos descritos abaixo.
 
-É fortemente indicado o uso de ambientes virtuais do tipo virtualenv.
+É fortemente indicado o uso de ambientes virtuais do tipo 'virtualenv.'
 
 (venv)$ pip install -r requirements.txt
 

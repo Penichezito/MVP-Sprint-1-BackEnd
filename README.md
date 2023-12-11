@@ -7,7 +7,7 @@ Aqui você pode encontrar o Repositório do [FrontEnd]() referente ao projeto.
 Back end da aplicação (API) utilizando Pyhon e Flask desenvolvida para primeiro projeto de Pós Graduação em Engenharia de Software da PUC-RIO.
 
 
-Informações sobre como executar:
+> Informações sobre como executar:
 
 Será necessário ter todas as libs python listadas no requirements.txt instaladas. Após clonar o repositório, é necessário ir ao diretório raiz, pelo terminal, para poder executar os comandos descritos abaixo.
 

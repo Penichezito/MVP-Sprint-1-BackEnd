@@ -26,5 +26,7 @@ Em modo de desenvolvimento é recomendado executar utilizando o parâmetro reloa
 
 Abra o http://localhost:5000/#/ no navegador para verificar o status da API em execução.
 
+Tiago Peniche Barbosa 
+
 
 

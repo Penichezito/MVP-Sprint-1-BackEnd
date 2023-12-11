@@ -1,5 +1,5 @@
 # MVP-Sprint-1-BackEnd
-##LISTA DE JOGOS 
+## LISTA DE JOGOS 
 
 Lista simples para catalogar jogos visando os mais diferetens tipos de objetivos. 
 Aqui você pode encontrar o Repositório do [FrontEnd]() referente ao projeto.

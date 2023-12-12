@@ -7,7 +7,7 @@ from sqlalchemy.exc import IntegrityError
 from model import Session, Game, Comentario
 from logger import logger
 from schemas import *
-from cors import CORS
+from flask_cors import CORS
 
 info = Info(title="API Lista de Jogos", version="1.0.0")
 app = OpenAPI(__name__, info=info)

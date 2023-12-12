@@ -103,11 +103,11 @@ def get_jogo(query: GameBuscaSchema):
 
     if not jogo:
         # se o jogo não foi encontrado
-        error_msg = "Produto não encontrado na base :/"
+        error_msg = "Jogo não encontrado na base :/"
         logger.warning(f"Erro ao buscar jogo '{jogo_id}', {error_msg}")
         return {"mesage": error_msg}, 404
     else:
-        logger.debug(f"Produto econtrado: '{jogo.nome}'")
+        logger.debug(f"Jogo econtrado: '{jogo.nome}'")
         # retorna a representação de jogo
         return apresenta_jogo(jogo), 200
     

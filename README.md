@@ -2,7 +2,7 @@
 ## LISTA DE JOGOS 
 
 Lista simples para catalogar jogos visando os mais diferetens tipos de objetivos. 
-Aqui você pode encontrar o Repositório do [FrontEnd]() referente ao projeto.
+Aqui você pode encontrar o Repositório do [FrontEnd](https://github.com/Penichezito/MVP-Sprint1-Front) referente ao projeto.
 
 Este é o Back end da minha primeira aplicação como programador (por isso sejam gentis comigo rs). Trata-se de uma API utilizando Pyhon e Flask desenvolvida para a primeira Sprint de Pós Graduação em Engenharia de Software da PUC-RIO.
 

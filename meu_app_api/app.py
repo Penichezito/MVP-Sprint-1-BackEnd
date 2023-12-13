@@ -9,12 +9,13 @@ from logger import logger
 from schemas import *
 from flask_cors import CORS
 
-info = Info(title="API Lista de Jogos", version="1.0.0")
+info = Info(title="Lista de Jogos", version="1.0.0")
 app = OpenAPI(__name__, info=info)
+CORS(app)
 
 #Definição das tags para documentação
 home_tag = Tag(name="Documentação", description="Seleção de documentação: Swagger, Redoc ou Rapidoc")
-jogo_tag = Tag(name= "Jogo",description="Adição, visualização e remoção de itend a base")
+jogo_tag = Tag(name= "Jogo",description="Adição, visualização e remoção de jogos a base")
 comentario_tag= Tag(name="Comentario", description="Adição de um comentario aos itens cadastrados na base")
 
 @app.get('/', tags=[home_tag])
@@ -103,11 +104,11 @@ def get_jogo(query: GameBuscaSchema):
 
     if not jogo:
         # se o jogo não foi encontrado
-        error_msg = "Jogo não encontrado na base :/"
+        error_msg = "Produto não encontrado na base :/"
         logger.warning(f"Erro ao buscar jogo '{jogo_id}', {error_msg}")
         return {"mesage": error_msg}, 404
     else:
-        logger.debug(f"Jogo econtrado: '{jogo.nome}'")
+        logger.debug(f"Produto econtrado: '{jogo.nome}'")
         # retorna a representação de jogo
         return apresenta_jogo(jogo), 200
     
